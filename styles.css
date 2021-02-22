@@ -1,9 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
 body {
 	background: black;
 }
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
-	margin: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-family: 'Kite One', sans-serif;
+}
+
+#header, #section, #footer{
+    overflow: hidden;
+}
+#header{
+    padding: 10px 10px 0px 10px;
+}
+#heading{
+    float: left;
+}
+#picture{
+    float: right;
+}
+#info, #form{
+    width: 180px;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+#info{
+    font-size: 14px;
+    font-weight: bold;
+}
+#form input{
+    border: none;
+    border-bottom: solid lightgray 2px;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+}
+#footer{
+    padding: 0;
+    margin: 0;
+}
+input[type=submit]{
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+    background-color: lightgray;
+    margin-left: 33.33%;
+    border: none;
+    border-bottom: solid gray 1px;
 }
